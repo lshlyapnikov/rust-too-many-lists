@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 4,
+  // "my.terminal.run.cmd1": "clear; RUSTFLAGS=\"$RUSTFLAGS -A dead_code -A unused_variables -A unused_imports\" cargo build --workspace --all-targets",
+  "my.terminal.run.cmd1": "clear; cargo check --workspace --all-targets",
+  "my.terminal.run.cmd2": "clear; cargo test --workspace --all-targets",
+  "rust-analyzer.inlayHints.enable": false,
+  "rust-analyzer.linkedProjects": ["./Cargo.toml"]
+}
