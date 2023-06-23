@@ -1,3 +1,5 @@
+// A Bad Stack
+
 use std::mem;
 
 pub struct List {

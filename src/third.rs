@@ -1,3 +1,5 @@
+//  A Persistent Stack
+
 use std::rc::Rc;
 
 pub struct List<T> {
