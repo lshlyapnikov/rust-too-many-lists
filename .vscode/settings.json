@@ -4,5 +4,10 @@
   "my.terminal.run.cmd1": "clear; cargo check --workspace --all-targets",
   "my.terminal.run.cmd2": "clear; cargo test --workspace --all-targets",
   "rust-analyzer.inlayHints.enable": false,
-  "rust-analyzer.linkedProjects": ["./Cargo.toml"]
+  "rust-analyzer.linkedProjects": [
+    "./Cargo.toml",
+    "./Cargo.toml",
+    "./Cargo.toml",
+    "./Cargo.toml"
+  ]
 }
